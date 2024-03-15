@@ -36,10 +36,10 @@ export const Button = styled.button `
     background-color: rgb(34, 22, 192);
     color: wheat;
     font-size: 20px;
-    height: 60px;
     border-radius: 10px;
     margin-top: 30px;
     border: 0px;
+    padding: 20px 0px 20px 0px;
     & :hover{
         background-color: rgb(83, 75, 187);
     transform: all 3s;
