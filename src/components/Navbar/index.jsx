@@ -9,7 +9,6 @@ function NavBar() {
       <Button onClick={() => Navigator('/Home')}>Home</Button>
       <Button onClick={() => Navigator('/Sobre')}>Sobre</Button>
       <Button onClick={() => Navigator('/Participantes')}>participantes</Button>
-      <Button onClick={() => Navigator('/home')}>bubub</Button>
     </Backgro>
   );
 }

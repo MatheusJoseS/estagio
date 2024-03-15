@@ -1,14 +1,13 @@
 import React from "react";
 import NavBar from "../../components/Navbar";
-import { Backgro, H1 } from "./styled.js";
+import {Image} from "./styled.js";
+import Imagem from "./../imag/Foto-TI.png";
 
 export const Home = () =>{
   return(
     <>
  <NavBar/>
-<Backgro>
-  <H1>Estagio de TI</H1>
-</Backgro>
+<Image src={Imagem} alt="Imagen" />
     </>
   )
 

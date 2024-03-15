@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 export const Backgro = styled.div` 
 background-color: rgb(56, 56, 56);
-padding: 20px;
-width: 100vw;
+padding: 20px 0 20px 0;
+width: 100%;
 height: 70px;
 display: flex;
 justify-content: center;
